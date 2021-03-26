@@ -25,7 +25,7 @@ export default {
                 complete: false
             }
             // console.log(project)
-            fetch('http://localhost:3000/projects', {
+            fetch('http://eloquent-albattani-e3bdd6/projects', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(project)
