@@ -25,7 +25,7 @@ export default {
                 complete: false
             }
             // console.log(project)
-            fetch('http://eloquent-albattani-e3bdd6/projects', {
+            fetch('https://eloquent-albattani-e3bdd6.netlify.app/projects', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(project)
