@@ -23,7 +23,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/db.json')
+    fetch('../db.json')
       .then(res => res.json())
       .then(data => this.projects = data)
       .catch(err => console.log(err.message))

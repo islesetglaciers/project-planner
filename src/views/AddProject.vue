@@ -25,7 +25,7 @@ export default {
                 complete: false
             }
             // console.log(project)
-            fetch('/db.json', {
+            fetch('../db.json', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(project)
