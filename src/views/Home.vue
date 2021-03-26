@@ -23,7 +23,7 @@ export default {
     }
   },
   mounted() {
-    fetch('https://eloquent-albattani-e3bdd6.netlify.app/projects')
+    fetch('/db.json')
       .then(res => res.json())
       .then(data => this.projects = data)
       .catch(err => console.log(err.message))
